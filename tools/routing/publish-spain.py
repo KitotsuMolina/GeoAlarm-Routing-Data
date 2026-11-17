@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Publish only fully generated and verified regional archives as repository Release assets."""
-import argparse, hashlib, json, pathlib, subprocess, urllib.request
+import argparse, concurrent.futures, hashlib, json, pathlib, subprocess
 ROOT=pathlib.Path(__file__).resolve().parents[2]
 REPO='KitotsuMolina/GeoAlarm-Routing-Data'
 p=argparse.ArgumentParser();p.add_argument('--tag',default='routing-spain-2026-11-17');a=p.parse_args()
@@ -28,22 +28,36 @@ Datos © OpenStreetMap contributors, ODbL 1.0. Extractos: Geofabrik. Fuentes, fe
 ''')
 def gh(*args):return subprocess.run(['gh',*map(str,args)],cwd=ROOT,check=True)
 head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
-exists=subprocess.run(['gh','release','view',a.tag,'--repo',REPO],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL).returncode==0
-if exists:
-    old=json.loads(subprocess.check_output(['gh','api',f'repos/{REPO}/releases/tags/{a.tag}'],text=True))
-    if not old['draft']:
-        raise SystemExit('This release is already published. Use a new dated tag for updated data.')
-if not exists:gh('release','create',a.tag,'--repo',REPO,'--target',head,'--draft','--title',f'Rutas de España · {a.tag}','--notes-file',notes)
-# Sequential upload avoids exhausting the connection and supports re-running interrupted uploads.
-for path in assets+[sums,ROOT/'routing-data/spain/catalog.json']:
+def lookup():
+    # GitHub does not resolve /releases/tags/{tag} while the release is a draft.
+    entries=json.loads(subprocess.check_output(['gh','api',f'repos/{REPO}/releases?per_page=100'],text=True))
+    return next((r for r in entries if r['tag_name']==a.tag),None)
+
+old=lookup()
+if old is not None and not old['draft']:
+    raise SystemExit('This release is already published. Use a new dated tag for updated data.')
+if old is None:
+    gh('release','create',a.tag,'--repo',REPO,'--target',head,'--draft','--title',f'Rutas de España · {a.tag}','--notes-file',notes)
+else:
+    gh('release','edit',a.tag,'--repo',REPO,'--target',head,'--notes-file',notes)
+remote={x['name']:x for x in lookup()['assets']}
+def upload(path):
+    with path.open('rb') as f: expected='sha256:'+hashlib.file_digest(f,'sha256').hexdigest()
+    existing=remote.get(path.name)
+    if existing and existing['size']==path.stat().st_size and existing.get('digest')==expected:
+        print('VERIFIED remote',path.name,flush=True);return
     gh('release','upload',a.tag,path,'--repo',REPO,'--clobber')
     print('UPLOADED',path.name,flush=True)
-view=json.loads(subprocess.check_output(['gh','api',f'repos/{REPO}/releases/tags/{a.tag}'],text=True))
+
+# Three independent files at a time; a resumed run skips completed, hash-verified assets.
+with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+    list(pool.map(upload,assets+[sums,ROOT/'routing-data/spain/catalog.json']))
+view=lookup()
 remote={x['name']:x for x in view['assets']}
-for path in assets:
+for path in assets+[sums,ROOT/'routing-data/spain/catalog.json']:
     assert remote[path.name]['size']==path.stat().st_size
     with path.open('rb') as f: expected='sha256:'+hashlib.file_digest(f,'sha256').hexdigest()
-    if remote[path.name].get('digest'):assert remote[path.name]['digest']==expected
+    assert remote[path.name].get('digest')==expected, f'Hash mismatch for {path.name}'
 # Publish only after every regional archive is present and verified by the API.
 gh('release','edit',a.tag,'--repo',REPO,'--draft=false','--latest=false')
-print(view['html_url'],flush=True)
+print(f'https://github.com/{REPO}/releases/tag/{a.tag}',flush=True)
