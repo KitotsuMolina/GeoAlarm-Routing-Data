@@ -1,0 +1,20 @@
+{
+  "name": "GeoAlarm Libre",
+  "version": "0.3.1-libre",
+  "versionCode": 7,
+  "applicationId": "com.kitotsu.geoalarm.libre",
+  "channel": "preview",
+  "minimumAndroidApi": 26,
+  "minimumAndroidVersion": "8.0",
+  "architectures": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86",
+    "x86_64"
+  ],
+  "filename": "GeoAlarm-Libre-0.3.1.apk",
+  "sizeBytes": 92243615,
+  "sha256": "bc95359a15dd4088a3ae28ff10515426e987b9676c2fc3e0ff29e8eb1da702e9",
+  "signingCertificateSha256": "38681366ff26876d8d0e74f6d51ba998a9f18164442eaadbed7c792e571319ed",
+  "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/geoalarm-libre-v0.3.1/GeoAlarm-Libre-0.3.1.apk"
+}

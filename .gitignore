@@ -2,3 +2,6 @@
 routing-data/spain/packages/
 __pycache__/
 *.pyc
+
+# Signed application binaries are hosted as Release assets.
+*.apk

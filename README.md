@@ -1,7 +1,9 @@
-# GeoAlarm Routing Data
+# GeoAlarm Libre · APK y rutas de España
 
-Paquetes regionales de caminos de España para calcular rutas dentro de Android
+APK firmada de GeoAlarm Libre y paquetes regionales de caminos de España para calcular rutas dentro de Android
 con GeoAlarm Libre **0.3.1 o posterior**, sin un servidor de rutas.
+
+📱 **[Descargar GeoAlarm Libre 0.3.1 para Android](apk/0.3.1/README.md)**
 
 ➡️ **[Catálogo por comunidad autónoma y ciudad autónoma](routing-data/spain/README.md)**
 
@@ -17,7 +19,7 @@ no están incluidos. La aplicación admite una sola región activa por instalaci
 
 GeoAlarm Libre 0.1.2 y otras versiones anteriores al motor integrado no admiten
 estos paquetes. Para regiones densas como Madrid se requiere la caché ampliada
-de 0.3.1. Este repositorio distribuye datos; no incluye el código ni el historial
+de 0.3.1. Este repositorio distribuye la APK firmada y datos de rutas; no incluye el código ni el historial
 del repositorio privado de la aplicación.
 
 ## Licencia y procedencia
