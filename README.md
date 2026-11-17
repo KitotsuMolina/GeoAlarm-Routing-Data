@@ -30,3 +30,15 @@ La atribución y las condiciones de la base de datos deben conservarse al redist
 
 Las herramientas específicas de generación están en `tools/routing/`. No se
 publican credenciales, datos de usuarios, alarmas ni claves de la aplicación.
+
+## Actualizar los paquetes sin depender de este PC
+
+En **Actions → Generate and publish Spain routing data → Run workflow**, indicar
+una etiqueta nueva con formato `routing-spain-YYYY-MM-DD`. La automatización usa
+dos generadores limitados, valida los 19 paquetes y publica una Release solo
+cuando están todos listos y sus hashes coinciden. No usa almacenamiento de
+artifacts ni necesita un servidor de rutas encendido.
+
+Una etiqueta que ya está publicada se rechaza antes de generar o cambiar el
+catálogo. Los borradores interrumpidos pueden reanudarse; los archivos que ya
+coinciden por hash no se vuelven a subir.

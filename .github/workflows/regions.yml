@@ -24,6 +24,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Check tag before generating or changing metadata
+        run: python3 tools/routing/check-data-release.py --tag "$DATA_TAG"
       - name: Generate and validate nineteen regions
         run: python3 tools/routing/build-spain-parallel.py
       - name: Validate catalogue and commit data metadata
