@@ -1,0 +1,30 @@
+{
+  "id": "melilla",
+  "name": "Melilla",
+  "filename": "geoalarm-melilla.zip",
+  "sizeBytes": 565342,
+  "sha256": "f236391b11df31fc281a91785f6a383812420212df0c39571d794720bc6fddd0",
+  "tilesSha256": "7d32c48aacc4795df26af5362afef1d4cdc5fb3e4eeb26c1e35967cab67079f0",
+  "sourceUrl": "https://download.geofabrik.de/europe/spain/melilla-latest.osm.pbf",
+  "sourceSha256": "ccfd5b00df1eadeec7a8443f58a3bdd738ebb7a634c7c83c31e9adbb02b8f586",
+  "generatedAt": "2026-11-17T08:45:32.028861+00:00",
+  "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+  "builderVersion": "3.9.1-7fd2228e5",
+  "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+  "validation": {
+    "pedestrian": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 0.132
+    },
+    "auto": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 0.166
+    }
+  },
+  "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-melilla.zip",
+  "license": "ODbL-1.0",
+  "sourceLastModified": "Tue, 17 Nov 2026 00:59:17 GMT",
+  "minimumAppVersion": "0.3.1"
+}

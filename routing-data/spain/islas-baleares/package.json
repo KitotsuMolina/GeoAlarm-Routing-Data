@@ -1,0 +1,30 @@
+{
+  "id": "islas-baleares",
+  "name": "Illes Balears",
+  "filename": "geoalarm-islas-baleares.zip",
+  "sizeBytes": 20876452,
+  "sha256": "71d9bf44271235a6d54e82f29549e383e98e7eb616a79f6ce34dea7a6dc6124f",
+  "tilesSha256": "7490d197ef328d9287ffc340c0fc57c5295985cc932fb78c2d9880ff27f18d40",
+  "sourceUrl": "https://download.geofabrik.de/europe/spain/islas-baleares-latest.osm.pbf",
+  "sourceSha256": "10f6346237c0834426bda7bf8c80086c6391bc50804d2522e29ef4d2b3018eaa",
+  "sourceLastModified": "Tue, 17 Nov 2026 00:59:48 GMT",
+  "generatedAt": "2026-11-17T08:49:08.012895+00:00",
+  "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+  "builderVersion": "3.9.1-7fd2228e5",
+  "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+  "validation": {
+    "pedestrian": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 0.162
+    },
+    "auto": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 2.966
+    }
+  },
+  "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-islas-baleares.zip",
+  "license": "ODbL-1.0",
+  "minimumAppVersion": "0.3.1"
+}

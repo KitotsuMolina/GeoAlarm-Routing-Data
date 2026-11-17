@@ -1,0 +1,21 @@
+[
+ {"id":"ceuta","name":"Ceuta","source":"europe/spain/ceuta","probe":[35.8894,-5.3200]},
+ {"id":"melilla","name":"Melilla","source":"europe/spain/melilla","probe":[35.2920,-2.9380]},
+ {"id":"la-rioja","name":"La Rioja","source":"europe/spain/la-rioja","probe":[42.4650,-2.4480]},
+ {"id":"cantabria","name":"Cantabria","source":"europe/spain/cantabria","probe":[43.4435,-3.4578]},
+ {"id":"asturias","name":"Principado de Asturias","source":"europe/spain/asturias","probe":[43.3614,-5.8494]},
+ {"id":"murcia","name":"Región de Murcia","source":"europe/spain/murcia","probe":[37.9922,-1.1307]},
+ {"id":"navarra","name":"Comunidad Foral de Navarra","source":"europe/spain/navarra","probe":[42.8125,-1.6458]},
+ {"id":"extremadura","name":"Extremadura","source":"europe/spain/extremadura","probe":[38.9161,-6.3437]},
+ {"id":"islas-baleares","name":"Illes Balears","source":"europe/spain/islas-baleares","probe":[39.5710,2.6500]},
+ {"id":"canarias","name":"Canarias","source":"africa/canary-islands","probe":[28.1235,-15.4363]},
+ {"id":"pais-vasco","name":"País Vasco","source":"europe/spain/pais-vasco","probe":[43.2630,-2.9350]},
+ {"id":"madrid","name":"Comunidad de Madrid","source":"europe/spain/madrid","probe":[40.4168,-3.7038]},
+ {"id":"aragon","name":"Aragón","source":"europe/spain/aragon","probe":[41.6488,-0.8891]},
+ {"id":"castilla-la-mancha","name":"Castilla-La Mancha","source":"europe/spain/castilla-la-mancha","probe":[39.8628,-4.0273]},
+ {"id":"galicia","name":"Galicia","source":"europe/spain/galicia","probe":[42.8805,-8.5457]},
+ {"id":"valencia","name":"Comunitat Valenciana","source":"europe/spain/valencia","probe":[39.4699,-0.3763]},
+ {"id":"castilla-y-leon","name":"Castilla y León","source":"europe/spain/castilla-y-leon","probe":[41.6523,-4.7245]},
+ {"id":"andalucia","name":"Andalucía","source":"europe/spain/andalucia","probe":[37.3891,-5.9845]},
+ {"id":"cataluna","name":"Cataluña","source":"europe/spain/cataluna","probe":[41.3874,2.1686]}
+]

@@ -1,0 +1,30 @@
+{
+  "id": "navarra",
+  "name": "Comunidad Foral de Navarra",
+  "filename": "geoalarm-navarra.zip",
+  "sizeBytes": 24895500,
+  "sha256": "6d1671f26067adcd2e0389705c0751936f9fa723437807cf4855ae44e532213a",
+  "tilesSha256": "afb791417f09889ea4781b0a28bbc9e81a31618184bd48078f33e0f61227027a",
+  "sourceUrl": "https://download.geofabrik.de/europe/spain/navarra-latest.osm.pbf",
+  "sourceSha256": "750b324b9c602f958c2fefbae0d17f35b12fb7a4521f9098c70b00e4234d4a24",
+  "sourceLastModified": "Tue, 17 Nov 2026 01:00:01 GMT",
+  "generatedAt": "2026-11-17T08:48:22.992757+00:00",
+  "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+  "builderVersion": "3.9.1-7fd2228e5",
+  "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+  "validation": {
+    "pedestrian": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 0.155
+    },
+    "auto": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 0.204
+    }
+  },
+  "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-navarra.zip",
+  "license": "ODbL-1.0",
+  "minimumAppVersion": "0.3.1"
+}

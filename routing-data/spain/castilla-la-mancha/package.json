@@ -1,0 +1,30 @@
+{
+  "id": "castilla-la-mancha",
+  "name": "Castilla-La Mancha",
+  "filename": "geoalarm-castilla-la-mancha.zip",
+  "sizeBytes": 63342441,
+  "sha256": "304c74dabb225301bb3ab11173a10f78a3822816549beda48edd16845d14ced4",
+  "tilesSha256": "f5189d4809369d099d7eac06ca8006a9e28f5b01eddfe82b43f1a872ea14e1af",
+  "sourceUrl": "https://download.geofabrik.de/europe/spain/castilla-la-mancha-latest.osm.pbf",
+  "sourceSha256": "98071f00ef8c0b36d3c84bc1fbef433ae35670a663551f4b16cc8c9e28a4837f",
+  "sourceLastModified": "Tue, 17 Nov 2026 00:59:07 GMT",
+  "generatedAt": "2026-11-17T08:56:04.985377+00:00",
+  "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+  "builderVersion": "3.9.1-7fd2228e5",
+  "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+  "validation": {
+    "pedestrian": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 0.217
+    },
+    "auto": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 0.204
+    }
+  },
+  "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-castilla-la-mancha.zip",
+  "license": "ODbL-1.0",
+  "minimumAppVersion": "0.3.1"
+}

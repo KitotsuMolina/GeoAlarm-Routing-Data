@@ -1,0 +1,30 @@
+{
+  "id": "pais-vasco",
+  "name": "País Vasco",
+  "filename": "geoalarm-pais-vasco.zip",
+  "sizeBytes": 37569456,
+  "sha256": "96913a962a1c18744ed64e6bb6f0c08cc193b711033595df85943599faa34141",
+  "tilesSha256": "e3fab97fac68096b02fefab7a251e08a4245f36e40e0539d0c7aedd387565c1c",
+  "sourceUrl": "https://download.geofabrik.de/europe/spain/pais-vasco-latest.osm.pbf",
+  "sourceSha256": "c6cf702c74d4e24b8865e65abf2b95aa83f69bb410e3eafcdc11fa32c0b07de1",
+  "sourceLastModified": "Tue, 17 Nov 2026 00:59:01 GMT",
+  "generatedAt": "2026-11-17T08:50:32.814940+00:00",
+  "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+  "builderVersion": "3.9.1-7fd2228e5",
+  "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+  "validation": {
+    "pedestrian": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 0.194
+    },
+    "auto": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 0.256
+    }
+  },
+  "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-pais-vasco.zip",
+  "license": "ODbL-1.0",
+  "minimumAppVersion": "0.3.1"
+}

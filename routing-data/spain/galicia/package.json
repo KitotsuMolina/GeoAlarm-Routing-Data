@@ -1,0 +1,30 @@
+{
+  "id": "galicia",
+  "name": "Galicia",
+  "filename": "geoalarm-galicia.zip",
+  "sizeBytes": 78979023,
+  "sha256": "b99e18b056e0ebf4b1cea4d5c5576e7ee75db31e2bf5a7f05fd6ca4574ca124d",
+  "tilesSha256": "4214af95059dec0dea7e70243c4f92893c9b913ae69b239c52b1082dc06011de",
+  "sourceUrl": "https://download.geofabrik.de/europe/spain/galicia-latest.osm.pbf",
+  "sourceSha256": "9688678d9f551530c9bc3fa4a06380370b873dd454fbad12b63f73aa0c2f0afc",
+  "sourceLastModified": "Tue, 17 Nov 2026 00:59:15 GMT",
+  "generatedAt": "2026-11-17T08:57:28.282460+00:00",
+  "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+  "builderVersion": "3.9.1-7fd2228e5",
+  "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+  "validation": {
+    "pedestrian": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 0.182
+    },
+    "auto": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 0.025
+    }
+  },
+  "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-galicia.zip",
+  "license": "ODbL-1.0",
+  "minimumAppVersion": "0.3.1"
+}

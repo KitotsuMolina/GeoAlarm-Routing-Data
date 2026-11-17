@@ -1,0 +1,30 @@
+{
+  "id": "andalucia",
+  "name": "Andalucía",
+  "filename": "geoalarm-andalucia.zip",
+  "sizeBytes": 125603483,
+  "sha256": "be69cc2eb391643a41dfc03e20a770b2ba710c8f7fce8cbab8912323a7a14380",
+  "tilesSha256": "1e510c9a050f5b3abcd87242a9ab36d7069e58ed47f4bb283f8bbc3e13c35cde",
+  "sourceUrl": "https://download.geofabrik.de/europe/spain/andalucia-latest.osm.pbf",
+  "sourceSha256": "059cc36f2bbe2e07b5b8ca1bb4ce1b772d1905d8d9c15c1d9feae212eccf878e",
+  "sourceLastModified": "Tue, 17 Nov 2026 00:59:43 GMT",
+  "generatedAt": "2026-11-17T09:01:52.818003+00:00",
+  "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+  "builderVersion": "3.9.1-7fd2228e5",
+  "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+  "validation": {
+    "pedestrian": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 0.138
+    },
+    "auto": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 0.94
+    }
+  },
+  "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-andalucia.zip",
+  "license": "ODbL-1.0",
+  "minimumAppVersion": "0.3.1"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "castilla-y-leon",
+  "name": "Castilla y León",
+  "filename": "geoalarm-castilla-y-leon.zip",
+  "sizeBytes": 117903893,
+  "sha256": "9050341faccc393254b1fb1a484ea186d4a0ad67fb827cc29127ca5d88edc7ed",
+  "tilesSha256": "124ed36472122374ceba273755a90f417d5c7c21812c94dcdbb9463732116820",
+  "sourceUrl": "https://download.geofabrik.de/europe/spain/castilla-y-leon-latest.osm.pbf",
+  "sourceSha256": "3c48ebf4fb612bc1a8ef9883ee021b8e2001913e26ac5abbf4ac56dedfc73b7a",
+  "sourceLastModified": "Tue, 17 Nov 2026 01:00:07 GMT",
+  "generatedAt": "2026-11-17T09:00:16.600828+00:00",
+  "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+  "builderVersion": "3.9.1-7fd2228e5",
+  "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+  "validation": {
+    "pedestrian": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 0.102
+    },
+    "auto": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 0.287
+    }
+  },
+  "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-castilla-y-leon.zip",
+  "license": "ODbL-1.0",
+  "minimumAppVersion": "0.3.1"
+}

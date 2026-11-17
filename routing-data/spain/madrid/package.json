@@ -1,0 +1,30 @@
+{
+  "id": "madrid",
+  "name": "Comunidad de Madrid",
+  "filename": "geoalarm-madrid.zip",
+  "sizeBytes": 55277427,
+  "sha256": "d5f06dd123a1ccdaf9ca310c8397893a53e71eaad81fa0881047ee41f8ad1804",
+  "tilesSha256": "51f48754b678bbb0cc8543ba4078d610cdd0c029b98934a10972c6f8891ca1af",
+  "sourceUrl": "https://download.geofabrik.de/europe/spain/madrid-latest.osm.pbf",
+  "sourceSha256": "cbecb977f608aa96663d4255e5aaaa1678811776a27579919c6cf019362182e2",
+  "sourceLastModified": "Tue, 17 Nov 2026 00:59:53 GMT",
+  "generatedAt": "2026-11-17T08:53:38.701066+00:00",
+  "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+  "builderVersion": "3.9.1-7fd2228e5",
+  "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+  "validation": {
+    "pedestrian": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 0.129
+    },
+    "auto": {
+      "status": 0,
+      "legs": 1,
+      "distanceKm": 0.018
+    }
+  },
+  "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-madrid.zip",
+  "license": "ODbL-1.0",
+  "minimumAppVersion": "0.3.1"
+}

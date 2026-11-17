@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "release": "routing-spain-2026-11-17",
+  "regions": [
+    {
+      "id": "andalucia",
+      "name": "Andalucía",
+      "filename": "geoalarm-andalucia.zip",
+      "sizeBytes": 125603483,
+      "sha256": "be69cc2eb391643a41dfc03e20a770b2ba710c8f7fce8cbab8912323a7a14380",
+      "tilesSha256": "1e510c9a050f5b3abcd87242a9ab36d7069e58ed47f4bb283f8bbc3e13c35cde",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/andalucia-latest.osm.pbf",
+      "sourceSha256": "059cc36f2bbe2e07b5b8ca1bb4ce1b772d1905d8d9c15c1d9feae212eccf878e",
+      "sourceLastModified": "Tue, 17 Nov 2026 00:59:43 GMT",
+      "generatedAt": "2026-11-17T09:01:52.818003+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.138
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.94
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-andalucia.zip",
+      "license": "ODbL-1.0",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "aragon",
+      "name": "Aragón",
+      "filename": "geoalarm-aragon.zip",
+      "sizeBytes": 48270319,
+      "sha256": "b923dee2c54e5830dac055ea642ea03101310da6acf61847e3e06586ca5e2496",
+      "tilesSha256": "28c1c1d3a938e64dba3b3b6c2e45340cdbc6afd41b600e0c9f48b8ae5fc2d749",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/aragon-latest.osm.pbf",
+      "sourceSha256": "0441bdfd354c48f95ea2f83dd87e081aae3f5eb71ad07eaa910e8a9acc6ffd2b",
+      "sourceLastModified": "Tue, 17 Nov 2026 00:58:54 GMT",
+      "generatedAt": "2026-11-17T08:54:41.385761+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.112
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.092
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-aragon.zip",
+      "license": "ODbL-1.0",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "canarias",
+      "name": "Canarias",
+      "filename": "geoalarm-canarias.zip",
+      "sizeBytes": 30775171,
+      "sha256": "9a608ef50ab68bba5e7f11333a3c3ac80aad60ce84403f90198f1828435c4529",
+      "tilesSha256": "17ed120ff19e95838b152317e167870ab9cb78bccb129343511d8518127166ae",
+      "sourceUrl": "https://download.geofabrik.de/africa/canary-islands-latest.osm.pbf",
+      "sourceSha256": "102380a8c3a5dcbb99e186e2a157ae69e874be889cb12cd3ec6c850cd19433a0",
+      "sourceLastModified": "Mon, 16 Nov 2026 23:49:27 GMT",
+      "generatedAt": "2026-11-17T08:49:39.287526+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.141
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.306
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-canarias.zip",
+      "license": "ODbL-1.0",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "cantabria",
+      "name": "Cantabria",
+      "filename": "geoalarm-cantabria.zip",
+      "sizeBytes": 16771818,
+      "sha256": "73f66afe125a3f1cace3dcca959ef0c39993f7be7fb92c49a13b79d0bfd29f79",
+      "tilesSha256": "3a4e0617cb9fdceffbdf5f8758f97e6825c7582382320f054d27400868a9c28f",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/cantabria-latest.osm.pbf",
+      "sourceSha256": "1427c87336aa2f3be5d3d3908aa50888e1dd7dce36c6e659bce5812fa9fe0018",
+      "sourceLastModified": "Tue, 17 Nov 2026 00:58:52 GMT",
+      "generatedAt": "2026-11-17T08:47:11.010788+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.107
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.395
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-cantabria.zip",
+      "license": "ODbL-1.0",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "castilla-y-leon",
+      "name": "Castilla y León",
+      "filename": "geoalarm-castilla-y-leon.zip",
+      "sizeBytes": 117903893,
+      "sha256": "9050341faccc393254b1fb1a484ea186d4a0ad67fb827cc29127ca5d88edc7ed",
+      "tilesSha256": "124ed36472122374ceba273755a90f417d5c7c21812c94dcdbb9463732116820",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/castilla-y-leon-latest.osm.pbf",
+      "sourceSha256": "3c48ebf4fb612bc1a8ef9883ee021b8e2001913e26ac5abbf4ac56dedfc73b7a",
+      "sourceLastModified": "Tue, 17 Nov 2026 01:00:07 GMT",
+      "generatedAt": "2026-11-17T09:00:16.600828+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.102
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.287
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-castilla-y-leon.zip",
+      "license": "ODbL-1.0",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "castilla-la-mancha",
+      "name": "Castilla-La Mancha",
+      "filename": "geoalarm-castilla-la-mancha.zip",
+      "sizeBytes": 63342441,
+      "sha256": "304c74dabb225301bb3ab11173a10f78a3822816549beda48edd16845d14ced4",
+      "tilesSha256": "f5189d4809369d099d7eac06ca8006a9e28f5b01eddfe82b43f1a872ea14e1af",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/castilla-la-mancha-latest.osm.pbf",
+      "sourceSha256": "98071f00ef8c0b36d3c84bc1fbef433ae35670a663551f4b16cc8c9e28a4837f",
+      "sourceLastModified": "Tue, 17 Nov 2026 00:59:07 GMT",
+      "generatedAt": "2026-11-17T08:56:04.985377+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.217
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.204
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-castilla-la-mancha.zip",
+      "license": "ODbL-1.0",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "cataluna",
+      "name": "Cataluña",
+      "filename": "geoalarm-cataluna.zip",
+      "sizeBytes": 141209838,
+      "sha256": "f598847542cae674aa800567755e6a036c81b74c253cd43708262f038add4b26",
+      "tilesSha256": "2eec267efbb45805fe9e76c70510136f28e1a3c48dc050b64d96ddc279304019",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/cataluna-latest.osm.pbf",
+      "sourceSha256": "b361c6f86920d8f283ea69af37b9822281d37894ad8e4480bf9fd3f35632e18c",
+      "sourceLastModified": "Tue, 17 Nov 2026 00:59:40 GMT",
+      "generatedAt": "2026-11-17T09:04:55.801324+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.161
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.446
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-cataluna.zip",
+      "license": "ODbL-1.0",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "ceuta",
+      "name": "Ceuta",
+      "filename": "geoalarm-ceuta.zip",
+      "sizeBytes": 404351,
+      "sha256": "170c9b352b7e0b441da4d2b18e9198dfe6665faaf21846e282e91961e848575c",
+      "tilesSha256": "ed4088f0c8f0419933636688ba3ad20ce847bbd02e366653b4ddcfe940e8a574",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/ceuta-latest.osm.pbf",
+      "sourceSha256": "5b4c32e96eef276a4c36ea43b01978bc540b5155c6c50f137f8af6fb46af2684",
+      "generatedAt": "2026-11-17T08:45:27.711689+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.097
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 1.132
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-ceuta.zip",
+      "license": "ODbL-1.0",
+      "sourceLastModified": "Tue, 17 Nov 2026 00:58:53 GMT",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "navarra",
+      "name": "Comunidad Foral de Navarra",
+      "filename": "geoalarm-navarra.zip",
+      "sizeBytes": 24895500,
+      "sha256": "6d1671f26067adcd2e0389705c0751936f9fa723437807cf4855ae44e532213a",
+      "tilesSha256": "afb791417f09889ea4781b0a28bbc9e81a31618184bd48078f33e0f61227027a",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/navarra-latest.osm.pbf",
+      "sourceSha256": "750b324b9c602f958c2fefbae0d17f35b12fb7a4521f9098c70b00e4234d4a24",
+      "sourceLastModified": "Tue, 17 Nov 2026 01:00:01 GMT",
+      "generatedAt": "2026-11-17T08:48:22.992757+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.155
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.204
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-navarra.zip",
+      "license": "ODbL-1.0",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "madrid",
+      "name": "Comunidad de Madrid",
+      "filename": "geoalarm-madrid.zip",
+      "sizeBytes": 55277427,
+      "sha256": "d5f06dd123a1ccdaf9ca310c8397893a53e71eaad81fa0881047ee41f8ad1804",
+      "tilesSha256": "51f48754b678bbb0cc8543ba4078d610cdd0c029b98934a10972c6f8891ca1af",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/madrid-latest.osm.pbf",
+      "sourceSha256": "cbecb977f608aa96663d4255e5aaaa1678811776a27579919c6cf019362182e2",
+      "sourceLastModified": "Tue, 17 Nov 2026 00:59:53 GMT",
+      "generatedAt": "2026-11-17T08:53:38.701066+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.129
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.018
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-madrid.zip",
+      "license": "ODbL-1.0",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "valencia",
+      "name": "Comunitat Valenciana",
+      "filename": "geoalarm-valencia.zip",
+      "sizeBytes": 86537625,
+      "sha256": "d0d2f0aa08bdd0ab660ad206248f62518270e35ab616efb9e43959017d75ebed",
+      "tilesSha256": "4384c6b5d3a083e9905dd6bc929153a9f8598444a849543bc0893ca3ab3418d9",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/valencia-latest.osm.pbf",
+      "sourceSha256": "1d962415cd5217ea84b5f174c190797f76a48b0fb1d2c78b3dee1f05b152403a",
+      "sourceLastModified": "Tue, 17 Nov 2026 00:58:56 GMT",
+      "generatedAt": "2026-11-17T08:58:47.558467+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.151
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.265
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-valencia.zip",
+      "license": "ODbL-1.0",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "extremadura",
+      "name": "Extremadura",
+      "filename": "geoalarm-extremadura.zip",
+      "sizeBytes": 27246067,
+      "sha256": "2a9668fe8e9a7f21d5f6fc77f053ec055b1a0928cde01177e98e06d7004ca00c",
+      "tilesSha256": "8d68e1f3881bc382b33189eb8d6d4d43ad21cf20ca197b7d4398710ce2092d41",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/extremadura-latest.osm.pbf",
+      "sourceSha256": "f0053b84cabcecf004db24bae2eedbe8c73ec451316278602d384b107299795f",
+      "sourceLastModified": "Tue, 17 Nov 2026 00:59:57 GMT",
+      "generatedAt": "2026-11-17T08:48:45.107582+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.122
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.843
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-extremadura.zip",
+      "license": "ODbL-1.0",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "galicia",
+      "name": "Galicia",
+      "filename": "geoalarm-galicia.zip",
+      "sizeBytes": 78979023,
+      "sha256": "b99e18b056e0ebf4b1cea4d5c5576e7ee75db31e2bf5a7f05fd6ca4574ca124d",
+      "tilesSha256": "4214af95059dec0dea7e70243c4f92893c9b913ae69b239c52b1082dc06011de",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/galicia-latest.osm.pbf",
+      "sourceSha256": "9688678d9f551530c9bc3fa4a06380370b873dd454fbad12b63f73aa0c2f0afc",
+      "sourceLastModified": "Tue, 17 Nov 2026 00:59:15 GMT",
+      "generatedAt": "2026-11-17T08:57:28.282460+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.182
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.025
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-galicia.zip",
+      "license": "ODbL-1.0",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "islas-baleares",
+      "name": "Illes Balears",
+      "filename": "geoalarm-islas-baleares.zip",
+      "sizeBytes": 20876452,
+      "sha256": "71d9bf44271235a6d54e82f29549e383e98e7eb616a79f6ce34dea7a6dc6124f",
+      "tilesSha256": "7490d197ef328d9287ffc340c0fc57c5295985cc932fb78c2d9880ff27f18d40",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/islas-baleares-latest.osm.pbf",
+      "sourceSha256": "10f6346237c0834426bda7bf8c80086c6391bc50804d2522e29ef4d2b3018eaa",
+      "sourceLastModified": "Tue, 17 Nov 2026 00:59:48 GMT",
+      "generatedAt": "2026-11-17T08:49:08.012895+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.162
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 2.966
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-islas-baleares.zip",
+      "license": "ODbL-1.0",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "la-rioja",
+      "name": "La Rioja",
+      "filename": "geoalarm-la-rioja.zip",
+      "sizeBytes": 7928109,
+      "sha256": "6bb720d93fc27557da1010dccecc32a148f6a24b7222524d5e12e0548077842f",
+      "tilesSha256": "e27d9e1aec35a8e43b4872f78116e3edfcfc6d35ee3a3596e79b39e1e639c6a5",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/la-rioja-latest.osm.pbf",
+      "sourceSha256": "724853d7725558f2580e73e108380e0d6d0f5ebdcbee20a800ce2151954af179",
+      "sourceLastModified": "Tue, 17 Nov 2026 00:59:48 GMT",
+      "generatedAt": "2026-11-17T08:46:44.874663+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.103
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.744
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-la-rioja.zip",
+      "license": "ODbL-1.0",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "melilla",
+      "name": "Melilla",
+      "filename": "geoalarm-melilla.zip",
+      "sizeBytes": 565342,
+      "sha256": "f236391b11df31fc281a91785f6a383812420212df0c39571d794720bc6fddd0",
+      "tilesSha256": "7d32c48aacc4795df26af5362afef1d4cdc5fb3e4eeb26c1e35967cab67079f0",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/melilla-latest.osm.pbf",
+      "sourceSha256": "ccfd5b00df1eadeec7a8443f58a3bdd738ebb7a634c7c83c31e9adbb02b8f586",
+      "generatedAt": "2026-11-17T08:45:32.028861+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.132
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.166
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-melilla.zip",
+      "license": "ODbL-1.0",
+      "sourceLastModified": "Tue, 17 Nov 2026 00:59:17 GMT",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "pais-vasco",
+      "name": "País Vasco",
+      "filename": "geoalarm-pais-vasco.zip",
+      "sizeBytes": 37569456,
+      "sha256": "96913a962a1c18744ed64e6bb6f0c08cc193b711033595df85943599faa34141",
+      "tilesSha256": "e3fab97fac68096b02fefab7a251e08a4245f36e40e0539d0c7aedd387565c1c",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/pais-vasco-latest.osm.pbf",
+      "sourceSha256": "c6cf702c74d4e24b8865e65abf2b95aa83f69bb410e3eafcdc11fa32c0b07de1",
+      "sourceLastModified": "Tue, 17 Nov 2026 00:59:01 GMT",
+      "generatedAt": "2026-11-17T08:50:32.814940+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.194
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.256
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-pais-vasco.zip",
+      "license": "ODbL-1.0",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "asturias",
+      "name": "Principado de Asturias",
+      "filename": "geoalarm-asturias.zip",
+      "sizeBytes": 21325524,
+      "sha256": "f8c40f9d6ebffe180375580c7d96e0c055605c8d8a74309d6d6a974a3e05d4c5",
+      "tilesSha256": "d2332548cf1c45cd6dae527b5acae1f84c06fd0924d465ad1be188620a2a75a0",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/asturias-latest.osm.pbf",
+      "sourceSha256": "234208d872f37e83e33cd55b0a4116d03571364570c08e824bf3feb4b44c423d",
+      "sourceLastModified": "Tue, 17 Nov 2026 00:59:31 GMT",
+      "generatedAt": "2026-11-17T08:47:42.422170+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.125
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.17
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-asturias.zip",
+      "license": "ODbL-1.0",
+      "minimumAppVersion": "0.3.1"
+    },
+    {
+      "id": "murcia",
+      "name": "Región de Murcia",
+      "filename": "geoalarm-murcia.zip",
+      "sizeBytes": 27823187,
+      "sha256": "18e41a108e567314d409f94cb8c8167427789880027cf644c3164bd1f5929a32",
+      "tilesSha256": "ca88fcc10bd62c7a7215cecd5d75495d92cb0afa852b57a7b45ea00f0d53720e",
+      "sourceUrl": "https://download.geofabrik.de/europe/spain/murcia-latest.osm.pbf",
+      "sourceSha256": "956f9549791d49e87ffd1fb1a1497e07099b4d791c1882b5ab301e8e1351f648",
+      "sourceLastModified": "Tue, 17 Nov 2026 00:59:05 GMT",
+      "generatedAt": "2026-11-17T08:48:01.652825+00:00",
+      "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
+      "builderVersion": "3.9.1-7fd2228e5",
+      "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
+      "validation": {
+        "pedestrian": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.225
+        },
+        "auto": {
+          "status": 0,
+          "legs": 1,
+          "distanceKm": 0.256
+        }
+      },
+      "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-murcia.zip",
+      "license": "ODbL-1.0",
+      "minimumAppVersion": "0.3.1"
+    }
+  ]
+}
