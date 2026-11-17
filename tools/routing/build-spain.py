@@ -101,7 +101,7 @@ def main():
     if not re.fullmatch(r'routing-spain-\d{4}-\d{2}-\d{2}', a.tag):p.error('Use routing-spain-YYYY-MM-DD for the data release tag')
     regions=json.loads((ROOT/'tools/routing/spain-regions.json').read_text())
     if a.only and set(a.only)-{r['id'] for r in regions}:p.error('Unknown regional id')
-    catalogue(regions,a.tag)
+    if not os.environ.get('REGIONS_SKIP_CATALOGUE'):catalogue(regions,a.tag)
     outputs=ROOT/'routing-data/spain/packages';outputs.mkdir(exist_ok=True)
     for r in regions:
         if a.only and r['id'] not in a.only:continue
@@ -149,10 +149,11 @@ def main():
               'generatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'builderImage':IMAGE,'builderVersion':'3.9.1-7fd2228e5',
               'mobileEngineTestedWith':'0.6.6 / Valhalla 3.9.2 (Cantabria reference)',
               'validation':proofs,'downloadUrl':f'https://github.com/{REPO}/releases/download/{a.tag}/{archive.name}', 'license':'ODbL-1.0'}
-        meta.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+        temp_meta=meta.with_suffix(f'.{os.getpid()}.tmp')
+        temp_meta.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');temp_meta.replace(meta)
         (folder/'SHA256SUMS').write_text(f'{data["sha256"]}  {archive.name}\n')
-        catalogue(regions,a.tag)
+        if not os.environ.get('REGIONS_SKIP_CATALOGUE'):catalogue(regions,a.tag)
         print('READY',r['id'],data['sizeBytes'],flush=True)
-    catalogue(regions,a.tag)
+    if not os.environ.get('REGIONS_SKIP_CATALOGUE'):catalogue(regions,a.tag)
 
 if __name__=='__main__':main()
