@@ -2,7 +2,7 @@
 
 [Descargar ZIP de rutas](https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-melilla.zip) · 0.5 MiB
 
-SHA-256: `f236391b11df31fc281a91785f6a383812420212df0c39571d794720bc6fddd0`
+SHA-256: `ce4b231b647e11cd8d3b900c856415c106e3c479a21d191144fa3f7daf14eb2d`
 
 Datos OSM: https://download.geofabrik.de/europe/spain/melilla-latest.osm.pbf. Licencia ODbL.
 

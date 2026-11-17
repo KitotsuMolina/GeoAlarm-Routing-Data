@@ -2,13 +2,14 @@
   "id": "la-rioja",
   "name": "La Rioja",
   "filename": "geoalarm-la-rioja.zip",
-  "sizeBytes": 7928109,
-  "sha256": "6bb720d93fc27557da1010dccecc32a148f6a24b7222524d5e12e0548077842f",
-  "tilesSha256": "e27d9e1aec35a8e43b4872f78116e3edfcfc6d35ee3a3596e79b39e1e639c6a5",
+  "sizeBytes": 7927735,
+  "sha256": "7582ce27b2598eead8709605b17b110a4ddd6bb3ec8bba74a11e05afe48fde03",
+  "minimumAppVersion": "0.3.1",
+  "tilesSha256": "f58b99d4497f175c0f0e2ce88a9ffd7d543a18b1c053ba7ea52348850ae0166e",
   "sourceUrl": "https://download.geofabrik.de/europe/spain/la-rioja-latest.osm.pbf",
   "sourceSha256": "724853d7725558f2580e73e108380e0d6d0f5ebdcbee20a800ce2151954af179",
   "sourceLastModified": "Tue, 17 Nov 2026 00:59:48 GMT",
-  "generatedAt": "2026-11-17T08:46:44.874663+00:00",
+  "generatedAt": "2026-11-17T09:27:14.849137+00:00",
   "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
   "builderVersion": "3.9.1-7fd2228e5",
   "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
@@ -25,6 +26,5 @@
     }
   },
   "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-la-rioja.zip",
-  "license": "ODbL-1.0",
-  "minimumAppVersion": "0.3.1"
+  "license": "ODbL-1.0"
 }

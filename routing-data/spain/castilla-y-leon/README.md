@@ -2,7 +2,7 @@
 
 [Descargar ZIP de rutas](https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-castilla-y-leon.zip) · 112.4 MiB
 
-SHA-256: `9050341faccc393254b1fb1a484ea186d4a0ad67fb827cc29127ca5d88edc7ed`
+SHA-256: `129a306406ab7ef21f4f903fa46cc21246a3ece2db7140376145aa48bdce9375`
 
 Datos OSM: https://download.geofabrik.de/europe/spain/castilla-y-leon-latest.osm.pbf. Licencia ODbL.
 

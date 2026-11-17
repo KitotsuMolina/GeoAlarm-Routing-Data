@@ -2,7 +2,7 @@
 
 [Descargar ZIP de rutas](https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-castilla-la-mancha.zip) · 60.4 MiB
 
-SHA-256: `304c74dabb225301bb3ab11173a10f78a3822816549beda48edd16845d14ced4`
+SHA-256: `7f92b41a908f140b4dbdf7041010256361043384dab693037e145b1ce55ae9f6`
 
 Datos OSM: https://download.geofabrik.de/europe/spain/castilla-la-mancha-latest.osm.pbf. Licencia ODbL.
 

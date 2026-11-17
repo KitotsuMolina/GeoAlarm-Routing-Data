@@ -2,12 +2,14 @@
   "id": "ceuta",
   "name": "Ceuta",
   "filename": "geoalarm-ceuta.zip",
-  "sizeBytes": 404351,
-  "sha256": "170c9b352b7e0b441da4d2b18e9198dfe6665faaf21846e282e91961e848575c",
-  "tilesSha256": "ed4088f0c8f0419933636688ba3ad20ce847bbd02e366653b4ddcfe940e8a574",
+  "sizeBytes": 404258,
+  "sha256": "8e2684ce0c2aed5b2f01aa33d9e6655e9f38e725d3dc181d59366e6b9384df78",
+  "minimumAppVersion": "0.3.1",
+  "tilesSha256": "1b6029523549383b635f655142b316609b8e035295f02ebf29f50b6d70ee6c81",
   "sourceUrl": "https://download.geofabrik.de/europe/spain/ceuta-latest.osm.pbf",
   "sourceSha256": "5b4c32e96eef276a4c36ea43b01978bc540b5155c6c50f137f8af6fb46af2684",
-  "generatedAt": "2026-11-17T08:45:27.711689+00:00",
+  "sourceLastModified": "Tue, 17 Nov 2026 00:58:53 GMT",
+  "generatedAt": "2026-11-17T09:27:00.477868+00:00",
   "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
   "builderVersion": "3.9.1-7fd2228e5",
   "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
@@ -24,7 +26,5 @@
     }
   },
   "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-ceuta.zip",
-  "license": "ODbL-1.0",
-  "sourceLastModified": "Tue, 17 Nov 2026 00:58:53 GMT",
-  "minimumAppVersion": "0.3.1"
+  "license": "ODbL-1.0"
 }

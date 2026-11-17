@@ -2,7 +2,7 @@
 
 [Descargar ZIP de rutas](https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-madrid.zip) · 52.7 MiB
 
-SHA-256: `d5f06dd123a1ccdaf9ca310c8397893a53e71eaad81fa0881047ee41f8ad1804`
+SHA-256: `27a3c2fadd3be57567ad1c04bfb2723db3b371702664cb1adc7faf03d155f18c`
 
 Datos OSM: https://download.geofabrik.de/europe/spain/madrid-latest.osm.pbf. Licencia ODbL.
 

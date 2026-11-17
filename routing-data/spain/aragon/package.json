@@ -2,13 +2,14 @@
   "id": "aragon",
   "name": "Aragón",
   "filename": "geoalarm-aragon.zip",
-  "sizeBytes": 48270319,
-  "sha256": "b923dee2c54e5830dac055ea642ea03101310da6acf61847e3e06586ca5e2496",
-  "tilesSha256": "28c1c1d3a938e64dba3b3b6c2e45340cdbc6afd41b600e0c9f48b8ae5fc2d749",
+  "sizeBytes": 48269081,
+  "sha256": "e678f6bd3d9ea55a50a8cc9e68356572df551fb126dd09f60d8acfa439db16de",
+  "minimumAppVersion": "0.3.1",
+  "tilesSha256": "3e77a343ffb58c40ace44f3f03559f865125a00aa750d37c4e3719ba9de1a3cd",
   "sourceUrl": "https://download.geofabrik.de/europe/spain/aragon-latest.osm.pbf",
   "sourceSha256": "0441bdfd354c48f95ea2f83dd87e081aae3f5eb71ad07eaa910e8a9acc6ffd2b",
   "sourceLastModified": "Tue, 17 Nov 2026 00:58:54 GMT",
-  "generatedAt": "2026-11-17T08:54:41.385761+00:00",
+  "generatedAt": "2026-11-17T09:30:49.114419+00:00",
   "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
   "builderVersion": "3.9.1-7fd2228e5",
   "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
@@ -25,6 +26,5 @@
     }
   },
   "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-aragon.zip",
-  "license": "ODbL-1.0",
-  "minimumAppVersion": "0.3.1"
+  "license": "ODbL-1.0"
 }

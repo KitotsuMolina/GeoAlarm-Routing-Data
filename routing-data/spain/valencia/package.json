@@ -2,13 +2,14 @@
   "id": "valencia",
   "name": "Comunitat Valenciana",
   "filename": "geoalarm-valencia.zip",
-  "sizeBytes": 86537625,
-  "sha256": "d0d2f0aa08bdd0ab660ad206248f62518270e35ab616efb9e43959017d75ebed",
-  "tilesSha256": "4384c6b5d3a083e9905dd6bc929153a9f8598444a849543bc0893ca3ab3418d9",
+  "sizeBytes": 86536313,
+  "sha256": "b705ddeac25892f32cb611ce40111efed0129475819f6df752903d5cd035fa43",
+  "minimumAppVersion": "0.3.1",
+  "tilesSha256": "64dac50990ddbaf208d922ed69a9df6d08bef40ede408cbb93f189b709c048db",
   "sourceUrl": "https://download.geofabrik.de/europe/spain/valencia-latest.osm.pbf",
   "sourceSha256": "1d962415cd5217ea84b5f174c190797f76a48b0fb1d2c78b3dee1f05b152403a",
   "sourceLastModified": "Tue, 17 Nov 2026 00:58:56 GMT",
-  "generatedAt": "2026-11-17T08:58:47.558467+00:00",
+  "generatedAt": "2026-11-17T09:34:01.724722+00:00",
   "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
   "builderVersion": "3.9.1-7fd2228e5",
   "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
@@ -25,6 +26,5 @@
     }
   },
   "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-valencia.zip",
-  "license": "ODbL-1.0",
-  "minimumAppVersion": "0.3.1"
+  "license": "ODbL-1.0"
 }

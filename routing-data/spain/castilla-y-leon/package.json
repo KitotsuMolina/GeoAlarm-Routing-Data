@@ -2,13 +2,14 @@
   "id": "castilla-y-leon",
   "name": "Castilla y León",
   "filename": "geoalarm-castilla-y-leon.zip",
-  "sizeBytes": 117903893,
-  "sha256": "9050341faccc393254b1fb1a484ea186d4a0ad67fb827cc29127ca5d88edc7ed",
-  "tilesSha256": "124ed36472122374ceba273755a90f417d5c7c21812c94dcdbb9463732116820",
+  "sizeBytes": 117899129,
+  "sha256": "129a306406ab7ef21f4f903fa46cc21246a3ece2db7140376145aa48bdce9375",
+  "minimumAppVersion": "0.3.1",
+  "tilesSha256": "a4708993d5554383be358a2e1c0746dcd94c20fe110263f4de19bc7899f245c6",
   "sourceUrl": "https://download.geofabrik.de/europe/spain/castilla-y-leon-latest.osm.pbf",
   "sourceSha256": "3c48ebf4fb612bc1a8ef9883ee021b8e2001913e26ac5abbf4ac56dedfc73b7a",
   "sourceLastModified": "Tue, 17 Nov 2026 01:00:07 GMT",
-  "generatedAt": "2026-11-17T09:00:16.600828+00:00",
+  "generatedAt": "2026-11-17T09:34:32.429711+00:00",
   "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
   "builderVersion": "3.9.1-7fd2228e5",
   "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
@@ -25,6 +26,5 @@
     }
   },
   "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-castilla-y-leon.zip",
-  "license": "ODbL-1.0",
-  "minimumAppVersion": "0.3.1"
+  "license": "ODbL-1.0"
 }

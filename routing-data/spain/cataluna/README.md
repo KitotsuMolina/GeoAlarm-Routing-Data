@@ -2,7 +2,7 @@
 
 [Descargar ZIP de rutas](https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-cataluna.zip) · 134.7 MiB
 
-SHA-256: `f598847542cae674aa800567755e6a036c81b74c253cd43708262f038add4b26`
+SHA-256: `83944f1671eeb59c2107636436770972b411b491376feadffddc4d9e9501fdaf`
 
 Datos OSM: https://download.geofabrik.de/europe/spain/cataluna-latest.osm.pbf. Licencia ODbL.
 

@@ -2,7 +2,7 @@
 
 [Descargar ZIP de rutas](https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-extremadura.zip) · 26.0 MiB
 
-SHA-256: `2a9668fe8e9a7f21d5f6fc77f053ec055b1a0928cde01177e98e06d7004ca00c`
+SHA-256: `993cb3b8f43ec9e2b8aa8cbedc48d77605734746d9e868ea7b8015cbfa16da76`
 
 Datos OSM: https://download.geofabrik.de/europe/spain/extremadura-latest.osm.pbf. Licencia ODbL.
 

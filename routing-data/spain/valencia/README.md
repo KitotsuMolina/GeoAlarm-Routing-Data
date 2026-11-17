@@ -2,7 +2,7 @@
 
 [Descargar ZIP de rutas](https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-valencia.zip) · 82.5 MiB
 
-SHA-256: `d0d2f0aa08bdd0ab660ad206248f62518270e35ab616efb9e43959017d75ebed`
+SHA-256: `b705ddeac25892f32cb611ce40111efed0129475819f6df752903d5cd035fa43`
 
 Datos OSM: https://download.geofabrik.de/europe/spain/valencia-latest.osm.pbf. Licencia ODbL.
 

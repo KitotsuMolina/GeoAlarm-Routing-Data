@@ -2,13 +2,14 @@
   "id": "andalucia",
   "name": "Andalucía",
   "filename": "geoalarm-andalucia.zip",
-  "sizeBytes": 125603483,
-  "sha256": "be69cc2eb391643a41dfc03e20a770b2ba710c8f7fce8cbab8912323a7a14380",
-  "tilesSha256": "1e510c9a050f5b3abcd87242a9ab36d7069e58ed47f4bb283f8bbc3e13c35cde",
+  "sizeBytes": 125599798,
+  "sha256": "da6d51536f6beb83eefde84e4e7b61018a3c98b53a217ffc88b8c0f1d406f578",
+  "minimumAppVersion": "0.3.1",
+  "tilesSha256": "fe9e937cce3dce59355ff9aad0a4c6ff1cc4c6b4b08bf2c982edcf3be6f00aaa",
   "sourceUrl": "https://download.geofabrik.de/europe/spain/andalucia-latest.osm.pbf",
   "sourceSha256": "059cc36f2bbe2e07b5b8ca1bb4ce1b772d1905d8d9c15c1d9feae212eccf878e",
   "sourceLastModified": "Tue, 17 Nov 2026 00:59:43 GMT",
-  "generatedAt": "2026-11-17T09:01:52.818003+00:00",
+  "generatedAt": "2026-11-17T09:36:44.210177+00:00",
   "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
   "builderVersion": "3.9.1-7fd2228e5",
   "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
@@ -25,6 +26,5 @@
     }
   },
   "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-andalucia.zip",
-  "license": "ODbL-1.0",
-  "minimumAppVersion": "0.3.1"
+  "license": "ODbL-1.0"
 }

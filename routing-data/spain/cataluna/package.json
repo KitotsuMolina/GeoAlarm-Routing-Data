@@ -2,13 +2,14 @@
   "id": "cataluna",
   "name": "Cataluña",
   "filename": "geoalarm-cataluna.zip",
-  "sizeBytes": 141209838,
-  "sha256": "f598847542cae674aa800567755e6a036c81b74c253cd43708262f038add4b26",
-  "tilesSha256": "2eec267efbb45805fe9e76c70510136f28e1a3c48dc050b64d96ddc279304019",
+  "sizeBytes": 141209304,
+  "sha256": "83944f1671eeb59c2107636436770972b411b491376feadffddc4d9e9501fdaf",
+  "minimumAppVersion": "0.3.1",
+  "tilesSha256": "2c456c6a399b197fbcc38b7a9e06286e8f3b25084fd63d0e60c55b3ab0fe9a80",
   "sourceUrl": "https://download.geofabrik.de/europe/spain/cataluna-latest.osm.pbf",
   "sourceSha256": "b361c6f86920d8f283ea69af37b9822281d37894ad8e4480bf9fd3f35632e18c",
   "sourceLastModified": "Tue, 17 Nov 2026 00:59:40 GMT",
-  "generatedAt": "2026-11-17T09:04:55.801324+00:00",
+  "generatedAt": "2026-11-17T09:39:05.131152+00:00",
   "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
   "builderVersion": "3.9.1-7fd2228e5",
   "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
@@ -25,6 +26,5 @@
     }
   },
   "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-cataluna.zip",
-  "license": "ODbL-1.0",
-  "minimumAppVersion": "0.3.1"
+  "license": "ODbL-1.0"
 }

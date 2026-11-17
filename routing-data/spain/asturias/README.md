@@ -2,7 +2,7 @@
 
 [Descargar ZIP de rutas](https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-asturias.zip) · 20.3 MiB
 
-SHA-256: `f8c40f9d6ebffe180375580c7d96e0c055605c8d8a74309d6d6a974a3e05d4c5`
+SHA-256: `5819aefa0ad2356f5a397215ce662bf2a67a5a4cb872d5e07ed012fec38525d6`
 
 Datos OSM: https://download.geofabrik.de/europe/spain/asturias-latest.osm.pbf. Licencia ODbL.
 

@@ -2,7 +2,7 @@
 
 [Descargar ZIP de rutas](https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-canarias.zip) · 29.3 MiB
 
-SHA-256: `9a608ef50ab68bba5e7f11333a3c3ac80aad60ce84403f90198f1828435c4529`
+SHA-256: `08504830d8a4a1c7c1b4d2c5aae12350d3845927d506007ca72570b39f000862`
 
 Datos OSM: https://download.geofabrik.de/africa/canary-islands-latest.osm.pbf. Licencia ODbL.
 

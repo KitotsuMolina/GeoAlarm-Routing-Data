@@ -2,13 +2,14 @@
   "id": "murcia",
   "name": "Región de Murcia",
   "filename": "geoalarm-murcia.zip",
-  "sizeBytes": 27823187,
-  "sha256": "18e41a108e567314d409f94cb8c8167427789880027cf644c3164bd1f5929a32",
-  "tilesSha256": "ca88fcc10bd62c7a7215cecd5d75495d92cb0afa852b57a7b45ea00f0d53720e",
+  "sizeBytes": 27822668,
+  "sha256": "355124653236305d0681b1fd906fdab587e3c6e952aa0edfa1aeafb8a4109af2",
+  "minimumAppVersion": "0.3.1",
+  "tilesSha256": "0da189b4467b47492441cd68328e611216b6d37f350c2b122341982dd6968762",
   "sourceUrl": "https://download.geofabrik.de/europe/spain/murcia-latest.osm.pbf",
   "sourceSha256": "956f9549791d49e87ffd1fb1a1497e07099b4d791c1882b5ab301e8e1351f648",
   "sourceLastModified": "Tue, 17 Nov 2026 00:59:05 GMT",
-  "generatedAt": "2026-11-17T08:48:01.652825+00:00",
+  "generatedAt": "2026-11-17T09:28:00.242958+00:00",
   "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
   "builderVersion": "3.9.1-7fd2228e5",
   "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
@@ -25,6 +26,5 @@
     }
   },
   "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-murcia.zip",
-  "license": "ODbL-1.0",
-  "minimumAppVersion": "0.3.1"
+  "license": "ODbL-1.0"
 }

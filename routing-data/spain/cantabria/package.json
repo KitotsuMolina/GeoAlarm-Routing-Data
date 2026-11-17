@@ -2,13 +2,14 @@
   "id": "cantabria",
   "name": "Cantabria",
   "filename": "geoalarm-cantabria.zip",
-  "sizeBytes": 16771818,
-  "sha256": "73f66afe125a3f1cace3dcca959ef0c39993f7be7fb92c49a13b79d0bfd29f79",
-  "tilesSha256": "3a4e0617cb9fdceffbdf5f8758f97e6825c7582382320f054d27400868a9c28f",
+  "sizeBytes": 16771539,
+  "sha256": "95652937a33952f823c6407b83cb9f60930dc64b380c0c647e385970dac70328",
+  "minimumAppVersion": "0.3.1",
+  "tilesSha256": "b2de8fbbc815650c33ed810cd9be50997ced4135c4eddd6727df931f39d7cfac",
   "sourceUrl": "https://download.geofabrik.de/europe/spain/cantabria-latest.osm.pbf",
   "sourceSha256": "1427c87336aa2f3be5d3d3908aa50888e1dd7dce36c6e659bce5812fa9fe0018",
   "sourceLastModified": "Tue, 17 Nov 2026 00:58:52 GMT",
-  "generatedAt": "2026-11-17T08:47:11.010788+00:00",
+  "generatedAt": "2026-11-17T09:27:27.272047+00:00",
   "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
   "builderVersion": "3.9.1-7fd2228e5",
   "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
@@ -25,6 +26,5 @@
     }
   },
   "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-cantabria.zip",
-  "license": "ODbL-1.0",
-  "minimumAppVersion": "0.3.1"
+  "license": "ODbL-1.0"
 }

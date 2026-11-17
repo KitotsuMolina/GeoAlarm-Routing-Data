@@ -2,13 +2,14 @@
   "id": "canarias",
   "name": "Canarias",
   "filename": "geoalarm-canarias.zip",
-  "sizeBytes": 30775171,
-  "sha256": "9a608ef50ab68bba5e7f11333a3c3ac80aad60ce84403f90198f1828435c4529",
-  "tilesSha256": "17ed120ff19e95838b152317e167870ab9cb78bccb129343511d8518127166ae",
+  "sizeBytes": 30774941,
+  "sha256": "08504830d8a4a1c7c1b4d2c5aae12350d3845927d506007ca72570b39f000862",
+  "minimumAppVersion": "0.3.1",
+  "tilesSha256": "77bfa44a0d4c02fbcf2c3c35969194facd27ce3495451b56ce9f7e36d8925d0b",
   "sourceUrl": "https://download.geofabrik.de/africa/canary-islands-latest.osm.pbf",
   "sourceSha256": "102380a8c3a5dcbb99e186e2a157ae69e874be889cb12cd3ec6c850cd19433a0",
   "sourceLastModified": "Mon, 16 Nov 2026 23:49:27 GMT",
-  "generatedAt": "2026-11-17T08:49:39.287526+00:00",
+  "generatedAt": "2026-11-17T09:29:33.885027+00:00",
   "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
   "builderVersion": "3.9.1-7fd2228e5",
   "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
@@ -25,6 +26,5 @@
     }
   },
   "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-canarias.zip",
-  "license": "ODbL-1.0",
-  "minimumAppVersion": "0.3.1"
+  "license": "ODbL-1.0"
 }

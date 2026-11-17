@@ -2,13 +2,14 @@
   "id": "asturias",
   "name": "Principado de Asturias",
   "filename": "geoalarm-asturias.zip",
-  "sizeBytes": 21325524,
-  "sha256": "f8c40f9d6ebffe180375580c7d96e0c055605c8d8a74309d6d6a974a3e05d4c5",
-  "tilesSha256": "d2332548cf1c45cd6dae527b5acae1f84c06fd0924d465ad1be188620a2a75a0",
+  "sizeBytes": 21325059,
+  "sha256": "5819aefa0ad2356f5a397215ce662bf2a67a5a4cb872d5e07ed012fec38525d6",
+  "minimumAppVersion": "0.3.1",
+  "tilesSha256": "20fee9886a8ce8c5623c4ab3d6a0b11d212ec241118676b8cf02ac32d4698803",
   "sourceUrl": "https://download.geofabrik.de/europe/spain/asturias-latest.osm.pbf",
   "sourceSha256": "234208d872f37e83e33cd55b0a4116d03571364570c08e824bf3feb4b44c423d",
   "sourceLastModified": "Tue, 17 Nov 2026 00:59:31 GMT",
-  "generatedAt": "2026-11-17T08:47:42.422170+00:00",
+  "generatedAt": "2026-11-17T09:27:43.256103+00:00",
   "builderImage": "ghcr.io/valhalla/valhalla-scripted@sha256:c58f9d72ab8c99453dad83da8f0c3df483a1f577243d54d43d9dd1443de1dac5",
   "builderVersion": "3.9.1-7fd2228e5",
   "mobileEngineTestedWith": "0.6.6 / Valhalla 3.9.2 (Cantabria reference)",
@@ -25,6 +26,5 @@
     }
   },
   "downloadUrl": "https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-asturias.zip",
-  "license": "ODbL-1.0",
-  "minimumAppVersion": "0.3.1"
+  "license": "ODbL-1.0"
 }

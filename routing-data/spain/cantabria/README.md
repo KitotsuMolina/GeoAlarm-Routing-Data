@@ -2,7 +2,7 @@
 
 [Descargar ZIP de rutas](https://github.com/KitotsuMolina/GeoAlarm-Routing-Data/releases/download/routing-spain-2026-11-17/geoalarm-cantabria.zip) · 16.0 MiB
 
-SHA-256: `73f66afe125a3f1cace3dcca959ef0c39993f7be7fb92c49a13b79d0bfd29f79`
+SHA-256: `95652937a33952f823c6407b83cb9f60930dc64b380c0c647e385970dac70328`
 
 Datos OSM: https://download.geofabrik.de/europe/spain/cantabria-latest.osm.pbf. Licencia ODbL.
 
